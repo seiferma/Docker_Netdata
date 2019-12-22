@@ -1,6 +1,6 @@
 FROM alpine:latest as builder
 
-RUN MSMTP_VERSION=1.8.4-r0 && \
+RUN MSMTP_VERSION=1.8.6-r1 && \
     apk --no-cache add msmtp=${MSMTP_VERSION} && \
     MSMTP_VERSION=
 
